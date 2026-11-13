@@ -4,7 +4,7 @@
   if(menu&&panel){
     const close=()=>{panel.hidden=true;menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Abrir menu');};
     menu.addEventListener('click',()=>{const next=menu.getAttribute('aria-expanded')!=='true';panel.hidden=!next;menu.setAttribute('aria-expanded',String(next));menu.setAttribute('aria-label',next?'Fechar menu':'Abrir menu');});
-    document.addEventListener('keydown',e=>{if(e.key==='Escape'){close();menu.focus();}});
+    document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu.getAttribute('aria-expanded')==='true'){close();menu.focus();}});
     panel.addEventListener('click',e=>{if(e.target.closest('a'))close()});
   }
   document.querySelectorAll('[data-filter-group]').forEach(group=>{

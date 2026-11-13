@@ -4,7 +4,7 @@ Portal estático independente, com páginas HTML próprias, CSS e JavaScript sem
 
 ## Começar
 
-1. Abra `index.html` no Chrome, Edge ou Firefox (funciona localmente).
+1. Extraia o ZIP e abra `index.html` no Chrome, Edge ou Firefox. Os links internos apontam para arquivos `index.html` e funcionam sem servidor, inclusive em `file://`.
 2. Navegue pelas páginas pelo menu. Os arquivos em `assets/` devem permanecer na mesma estrutura.
 3. Para publicar no GitHub Pages, abra **Settings → Pages** e escolha **Deploy from a branch → main → /(root)**. Não é preciso instalar dependências. Se o repositório for privado, confira se a sua conta permite Pages para projetos privados; GitHub Pages publica o site na web conforme as configurações do repositório e plano.
 
@@ -46,3 +46,14 @@ Os sete vídeos são listados com seus IDs originais em `assets/data/catalogo.js
 ## Créditos
 
 Recriação editorial do projeto Crescer+PR Jovem com os arquivos fornecidos pelo autor. Materiais de currículo preservados; marcas de terceiros e capas de vídeos permanecem propriedade de seus autores. A iconografia hexagonal original está na pasta `assets/brand/originais`.
+
+## Verificações e manutenção
+
+- Teste de integridade local: todos os links internos, HTMLs e currículos; teste visual responsivo em sete larguras.
+- O arquivo `assets/data/catalogo.json` é referência editorial, **não alimenta automaticamente as páginas HTML**. Para trocar cursos, vídeos ou vagas, altere o HTML da seção e atualize o JSON se desejar mantê-los sincronizados.
+- Os títulos de cinco vídeos de carreira ainda não foram validados com o nome exibido no YouTube; antes da divulgação ampla, confira manualmente o conteúdo e os créditos dos vídeos.
+- Miniaturas reais do YouTube podem estar indisponíveis por bloqueio de rede; a capa alternativa é um gráfico original do Crescer+PR, não uma reprodução da miniatura.
+- Foram priorizados links do SENAI do Paraná, em vez do departamento de São Paulo.
+- Não é possível testar a disponibilidade das plataformas de vagas em tempo real somente pela estrutura HTML.
+
+Acesse `AUDITORIA_FINAL.md` para o relatório de verificação e as pendências antes da publicação.

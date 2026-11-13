@@ -1,0 +1,14 @@
+CRESCER+PR JOVEM — COMO ABRIR
+
+1) Extraia todo o conteúdo do arquivo ZIP.
+2) Abra a pasta CrescerPR_Jovem e clique duas vezes em index.html.
+3) Use o menu para ir a Currículos, Tutoriais, Vagas, Cursos e demais seções.
+4) Mantenha todas as pastas e arquivos juntos. Não mova index.html sozinho.
+
+Todas as páginas abrem localmente no navegador, sem instalar programas.
+Os arquivos de currículo já estão incluídos em assets/curriculos.
+Os vídeos abrem no YouTube; capas reais dependem de internet. Sem conexão, aparecem capas locais ilustrativas.
+
+Para editar, abra cada index.html num editor de texto ou VS Code. Os estilos ficam em assets/css/site.css e os comportamentos em assets/js/site.js.
+
+Verifique AUDITORIA_FINAL.md antes de divulgar o site publicamente.
