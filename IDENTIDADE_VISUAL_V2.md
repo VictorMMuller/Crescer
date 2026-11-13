@@ -30,12 +30,11 @@
 
 Evitar arco-íris de cards (todas as categorias com cores fortes), sombras pesadas, brilhos neon e dezenas de ornamentos concorrendo.
 
-## Mascote original — Pipa
-- Arquivo: `assets/brand/guia-pipa.svg`, SVG local com texto alternativo.
-- Construção a partir do formato hexagonal verde e amarelo da **marca do próprio projeto**, com olhos, sorriso, caderno e gesto acolhedor.
-- Papel: símbolo de incentivo ao início profissional; **não** simular atendimento humano, não fingir chatbot ou órgão público.
-- Na home aparece no hero como **único foco ilustrativo**. Nas páginas internas a estrutura editorial é mais sóbria.
-- Evolução possível: expressões do Pipa para conteúdos sobre vagas/currículos/cursos, mantendo desenho-base e proporções, sem adicionar novos mascotes sem necessidade.
+## Hero sem personagem
+- Substituímos a ilustração por um painel editorial com **três atalhos úteis**: currículo, vagas e cursos.
+- O painel usa o símbolo original em `assets/brand/simbolo.svg`, sem criar outro personagem ou modificar a marca.
+- A marca completa continua no cabeçalho e no rodapé; o elemento visual secundário existe para ajudar na navegação.
+- Evitar novos personagens e ornamentação que não tenham função informativa.
 
 ## Hierarquia e legibilidade
 1. Título da dobra: um ponto focal.
@@ -47,7 +46,7 @@ Evitar arco-íris de cards (todas as categorias com cores fortes), sombras pesad
 7. Mobile 320px: uma coluna para cards muito estreitos; nunca exigir leitura de texto sobre imagens.
 
 ## Movimento e som
-- Mascote com flutuação lenta e sutil; remover animação com `prefers-reduced-motion: reduce`.
+- Transições discretas apenas nos elementos de ação; respeitar `prefers-reduced-motion: reduce`.
 - `assets/js/soft-sounds.js`: som **desligado por padrão**, ativado apenas com botão explícito.
 - Som sintético local de baixa intensidade para escolha de trilhas e ações, sem biblioteca, mídia externa, autoplay, cookies nem envio de dados.
 - A interface funciona integralmente sem som e sem animação. Não adicionar vídeo de reprodução automática.
@@ -55,7 +54,7 @@ Evitar arco-íris de cards (todas as categorias com cores fortes), sombras pesad
 
 ## Arquivos deste teste
 - `assets/css/identity-v2.css` — camada de design que vem após `experimental.css`.
-- `assets/brand/guia-pipa.svg` — personagem vetorial original.
+- `assets/brand/simbolo.svg` — símbolo original usado no painel de acesso rápido.
 - `assets/js/soft-sounds.js` — sons de interface com ativação opcional.
 - `index.html` e oito páginas internas — logos, favicon, carregamento de estilos e áudio atualizados.
 - A branch `main` permanece intocada.
@@ -64,4 +63,4 @@ Evitar arco-íris de cards (todas as categorias com cores fortes), sombras pesad
 - Revisar contraste em todos os estados, incluindo hover/foco, com ferramenta WCAG e leitor de tela.
 - Conferir 320 / 390 / 768 / 1440 pixels e zoom 200%; menus e interações por teclado.
 - Conferir vídeos, links externos, programas e regras de contratação antes de divulgar.
-- Revisar uso do mascote e a identidade com a equipe responsável pelo projeto.
+- Revisar a identidade visual e os atalhos com a equipe responsável pelo projeto.
