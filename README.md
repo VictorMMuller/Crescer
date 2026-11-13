@@ -2,9 +2,11 @@
 
 ## Atualização: identidade visual v2 (13/11/2026)
 
-O experimento passou por uma rodada de refinamento após feedback: **logo original recuperada nas nove páginas**, paleta verde e amarelo coerente com a marca, tipografia mais contrastada, cartões mais discretos e mascote original **Pipa**. Som de microinterações é **opcional e desligado por padrão**. As páginas de vídeos permanecem com links externos, sem autoplay.
+O experimento passou por uma rodada de refinamento após feedback: **logo original recuperada nas nove páginas**, paleta verde e amarelo coerente com a marca, tipografia mais contrastada, cartões mais discretos e navegação mais clara na área de destaque. Som de microinterações é **opcional e desligado por padrão**. As páginas de vídeos permanecem com links externos, sem autoplay.
 
-Arquivos novos: `IDENTIDADE_VISUAL_V2.md` (manual), `assets/brand/guia-pipa.svg`, `assets/css/identity-v2.css` e `assets/js/soft-sounds.js`.
+Arquivos novos: `IDENTIDADE_VISUAL_V2.md` (manual), `assets/css/identity-v2.css` e `assets/js/soft-sounds.js`.
+
+O hero agora apresenta três atalhos úteis para currículo, vagas e cursos, sem personagem. A versão anterior continua preservada no histórico Git.
 
 A versão experimental imediatamente anterior foi preservada em `backup/design-jovem-v1-2026-11-13`. A branch `main` não foi editada nesta revisão. Esta rodada foi validada por checagem estrutural e cálculos de contraste de pares críticos; ainda requer validação visual humana, teste funcional com browser e revisão de acessibilidade completa antes de divulgação.
 
