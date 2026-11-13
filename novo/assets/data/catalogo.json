@@ -1,0 +1,348 @@
+{
+  "tutorials": [
+    {
+      "t": "Como fazer um currículo mais atrativo",
+      "cat": "Currículo",
+      "desc": "Um passo a passo para organizar informações e destacar seu perfil.",
+      "vid": "Yu9oe8UJGak",
+      "tag": "Comece aqui"
+    },
+    {
+      "t": "Tutorial de preparação profissional 01",
+      "cat": "Carreira",
+      "desc": "Conteúdo em vídeo selecionado para apoiar sua preparação.",
+      "vid": "T1BgJRlbwfE"
+    },
+    {
+      "t": "Excel do zero para iniciantes",
+      "cat": "Ferramentas",
+      "desc": "Aprenda as primeiras funções de planilha de forma prática.",
+      "vid": "QQhXangMDNA"
+    },
+    {
+      "t": "Tutorial de preparação profissional 02",
+      "cat": "Carreira",
+      "desc": "Uma aula da seleção original do Crescer+PR.",
+      "vid": "TDhkccIX9Ro"
+    },
+    {
+      "t": "Tutorial de preparação profissional 03",
+      "cat": "Carreira",
+      "desc": "Mais uma referência para desenvolver habilidades úteis.",
+      "vid": "6YPTCKDu7iw"
+    },
+    {
+      "t": "Tutorial de preparação profissional 04",
+      "cat": "Carreira",
+      "desc": "Aprenda no seu ritmo com a seleção de vídeos do projeto.",
+      "vid": "tdADwahigdU"
+    },
+    {
+      "t": "Tutorial de preparação profissional 05",
+      "cat": "Carreira",
+      "desc": "Um conteúdo complementar para quem está começando.",
+      "vid": "CqJgu8_g4t4"
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Central de Estágio PR",
+      "type": "Estágio",
+      "desc": "Canal oficial do Governo do Paraná para oportunidades de estágio em órgãos estaduais.",
+      "url": "https://www.centraldeestagio.pr.gov.br/",
+      "featured": true,
+      "tag": "Governo do Paraná",
+      "accent": "green",
+      "initial": "PR",
+      "icon": "assets/parceiros/central-estagio-pr.svg",
+      "icon_type": "identificacao-ilustrativa"
+    },
+    {
+      "title": "Cidade Júnior",
+      "type": "Jovem Aprendiz",
+      "desc": "Instituição paranaense com programas de aprendizagem e oportunidades para jovens.",
+      "url": "https://cidadejunior.org/",
+      "featured": true,
+      "tag": "Aprendizagem",
+      "accent": "teal",
+      "initial": "CJ",
+      "icon": "assets/parceiros/cidade-junior.svg",
+      "icon_type": "identificacao-ilustrativa"
+    },
+    {
+      "title": "EVO Estágios",
+      "type": "Estágio",
+      "desc": "Plataforma de recrutamento voltada a estágios e entrada no mercado.",
+      "url": "https://www.evoestagios.com.br/",
+      "featured": true,
+      "tag": "Seleção de estagiários",
+      "accent": "yellow",
+      "initial": "EV",
+      "icon": "assets/parceiros/evo-estagios.svg",
+      "icon_type": "identificacao-ilustrativa"
+    },
+    {
+      "title": "CIEE",
+      "type": "Estágio & Aprendiz",
+      "desc": "Oportunidades e programas de estágio e aprendizagem em várias regiões.",
+      "url": "https://portal.ciee.org.br/",
+      "tag": "Estágio e aprendiz",
+      "accent": "blue",
+      "initial": "CIEE",
+      "icon": "assets/parceiros/ciee.svg",
+      "icon_type": "identificacao-ilustrativa"
+    },
+    {
+      "title": "Emprega Brasil",
+      "type": "Primeiro Emprego",
+      "desc": "Serviços de intermediação de emprego do SINE em portal do Governo Federal.",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/sistema-nacional-de-emprego-sine/portal-emprega-brasil",
+      "tag": "Governo Federal",
+      "accent": "green",
+      "initial": "BR",
+      "icon": "assets/parceiros/emprega-brasil.svg",
+      "icon_type": "identificacao-ilustrativa"
+    },
+    {
+      "title": "LinkedIn",
+      "type": "Todos os perfis",
+      "desc": "Pesquise vagas por região, nível de experiência e modalidade.",
+      "url": "https://www.linkedin.com/jobs/",
+      "tag": "Rede profissional",
+      "accent": "blue",
+      "initial": "in",
+      "icon": "assets/parceiros/linkedin.svg",
+      "icon_type": "oficial"
+    },
+    {
+      "title": "Infojobs",
+      "type": "Todos os perfis",
+      "desc": "Busque vagas e filtre por cidade, área e tipo de contratação.",
+      "url": "https://www.infojobs.com.br/",
+      "tag": "Portal de vagas",
+      "accent": "teal",
+      "initial": "ij",
+      "icon": "assets/parceiros/infojobs.svg",
+      "icon_type": "identificacao-ilustrativa"
+    },
+    {
+      "title": "Catho",
+      "type": "Todos os perfis",
+      "desc": "Vagas e ferramentas para acompanhar candidaturas e oportunidades.",
+      "url": "https://www.catho.com.br/",
+      "tag": "Portal de vagas",
+      "accent": "yellow",
+      "initial": "CA",
+      "icon": "assets/parceiros/catho.svg",
+      "icon_type": "identificacao-ilustrativa"
+    }
+  ],
+  "courses": [
+    {
+      "name": "SENAI",
+      "category": "Técnico",
+      "title": "Formação para a indústria",
+      "desc": "Cursos profissionalizantes e oportunidades de qualificação em áreas como tecnologia, elétrica e mecânica. Verifique editais e turmas gratuitas.",
+      "url": "https://www.senaipr.org.br/transparencia/gratuidade/oportunidades/",
+      "flag": "Ofertas gratuitas por turma",
+      "tone": "teal",
+      "initial": "S",
+      "icon": "assets/parceiros/senai.svg",
+      "icon_type": "identificacao-ilustrativa"
+    },
+    {
+      "name": "Escola Virtual Gov",
+      "category": "Online",
+      "title": "Cursos do Governo Federal",
+      "desc": "Capacitações online em gestão, tecnologia, cidadania e outras áreas, com emissão de certificado nas formações elegíveis.",
+      "url": "https://www.escolavirtual.gov.br/",
+      "flag": "Cursos gratuitos",
+      "tone": "green",
+      "initial": "EV",
+      "icon": "assets/parceiros/escola-virtual-gov.svg",
+      "icon_type": "identificacao-ilustrativa"
+    },
+    {
+      "name": "SEBRAE",
+      "category": "Empreendedorismo",
+      "title": "Negócios e finanças na prática",
+      "desc": "Aulas de empreendedorismo, planejamento, finanças e atendimento, ideais para desenvolver habilidades profissionais.",
+      "url": "https://loja.sebrae.com.br/cursos/cursos-online",
+      "flag": "Seleção de cursos gratuitos",
+      "tone": "yellow",
+      "initial": "SB",
+      "icon": "assets/parceiros/sebrae.svg",
+      "icon_type": "identificacao-ilustrativa"
+    },
+    {
+      "name": "SENAC",
+      "category": "Técnico",
+      "title": "Qualificação para serviços e comércio",
+      "desc": "Procure ofertas de gratuidade e bolsas nos programas do SENAC para cursos presenciais e a distância.",
+      "url": "https://www.senac.br/",
+      "flag": "Gratuidade conforme programa",
+      "tone": "teal",
+      "initial": "SN",
+      "icon": "assets/parceiros/senac.svg",
+      "icon_type": "identificacao-ilustrativa"
+    },
+    {
+      "name": "Coursera",
+      "category": "Internacional",
+      "title": "Aulas de universidades e empresas",
+      "desc": "Acesso a cursos de várias instituições. Certificados e avaliações podem ser pagos; confira as opções de auxílio financeiro.",
+      "url": "https://www.coursera.org/courses?query=free",
+      "flag": "Pode exigir bolsa ou pagamento",
+      "tone": "blue",
+      "initial": "Co",
+      "icon": "assets/parceiros/coursera.svg",
+      "icon_type": "identificacao-ilustrativa"
+    },
+    {
+      "name": "Fundação Bradesco",
+      "category": "Online",
+      "title": "Escola Virtual",
+      "desc": "Cursos de tecnologia, produtividade, administração e desenvolvimento pessoal que ajudam a fortalecer o currículo.",
+      "url": "https://www.ev.org.br/",
+      "flag": "Cursos gratuitos",
+      "tone": "yellow",
+      "initial": "FB",
+      "icon": "assets/parceiros/fundacao-bradesco.svg",
+      "icon_type": "identificacao-ilustrativa"
+    }
+  ],
+  "docs": [
+    {
+      "title": "Carteira de Trabalho Digital (CTPS)",
+      "method": "Online e gratuita",
+      "accent": "Essencial",
+      "ic": "file",
+      "text": "A CTPS Digital reúne seus registros e contratos de trabalho. O CPF é o identificador; você pode consultar pelo aplicativo ou serviço oficial.",
+      "steps": [
+        "Tenha seu CPF e acesso à conta gov.br.",
+        "Abra o aplicativo Carteira de Trabalho Digital ou serviço correspondente.",
+        "Entre com sua conta gov.br e confira seus dados."
+      ],
+      "url": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho"
+    },
+    {
+      "title": "Carteira de Identidade Nacional (CIN)",
+      "method": "Emissão estadual",
+      "accent": "Documento de identificação",
+      "ic": "shield",
+      "text": "A CIN é o padrão nacional de identificação que usa o CPF como número único. No Paraná, consulte o órgão estadual para agendamento e requisitos.",
+      "steps": [
+        "Confira a documentação solicitada pelo órgão emissor.",
+        "Agende o atendimento se for necessário.",
+        "Compareça ao posto e acompanhe a emissão."
+      ],
+      "url": "https://www.policiacivil.pr.gov.br/Pagina/SOLICITAR-CARTEIRA-DE-IDENTIDADE-NACIONAL-CIN"
+    },
+    {
+      "title": "CPF",
+      "method": "Consulta e regularização",
+      "accent": "Identificação",
+      "ic": "file",
+      "text": "O CPF é usado no cadastro gov.br, contratação e serviços públicos. Consulte seu status nos canais oficiais da Receita Federal.",
+      "steps": [
+        "Acesse o portal da Receita Federal.",
+        "Consulte a situação cadastral do CPF.",
+        "Siga as instruções oficiais se houver pendência."
+      ],
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-cpf"
+    },
+    {
+      "title": "PIS / NIS",
+      "method": "Identificador do trabalhador",
+      "accent": "Pode ser atribuído no cadastro",
+      "ic": "users",
+      "text": "O número é utilizado nos cadastros trabalhistas e sociais. No primeiro emprego, o registro é feito conforme os procedimentos do empregador e dos sistemas oficiais.",
+      "steps": [
+        "Verifique se já possui cadastro anterior.",
+        "Apresente seus documentos ao empregador.",
+        "Consulte o número pelos canais oficiais quando necessário."
+      ],
+      "url": "https://www.gov.br/pt-br/temas/meu-inss"
+    },
+    {
+      "title": "Título de Eleitor",
+      "method": "Online, quando elegível",
+      "accent": "Obrigatório em regra a partir dos 18",
+      "ic": "checkcircle",
+      "text": "O alistamento eleitoral é facultativo aos 16 e 17 anos, e obrigatório, em regra, dos 18 aos 70 anos. Use o Autoatendimento Eleitoral do TSE.",
+      "steps": [
+        "Entre no serviço de Autoatendimento Eleitoral.",
+        "Escolha o serviço necessário e envie os dados solicitados.",
+        "Acompanhe seu requerimento nos canais do TSE."
+      ],
+      "url": "https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral"
+    },
+    {
+      "title": "Comprovante de Residência",
+      "method": "Documento de endereço",
+      "accent": "Conforme solicitação",
+      "ic": "location",
+      "text": "Pode ser conta de água, luz, internet ou outro comprovante admitido pelo contratante. Se não estiver no seu nome, pergunte sobre declaração de residência.",
+      "steps": [
+        "Separe documento recente aceito pela empresa.",
+        "Confira se endereço e informações estão legíveis.",
+        "Se estiver em nome de outra pessoa, confirme alternativa com o RH."
+      ],
+      "url": null
+    }
+  ],
+  "faq": [
+    [
+      "O que é CTPS Digital?",
+      "É a Carteira de Trabalho em formato eletrônico, usada para consultar registros e contratos de trabalho. Você acessa pelo aplicativo ou por serviços oficiais com sua conta gov.br."
+    ],
+    [
+      "A partir de que idade posso ser Jovem Aprendiz?",
+      "Em regra, a aprendizagem é destinada a pessoas a partir de 14 anos e antes de completar 24 anos. Para pessoas com deficiência, não se aplica o limite máximo de idade."
+    ],
+    [
+      "Quanto tempo dura o contrato de aprendizagem?",
+      "Geralmente, até dois anos, conforme o programa, as regras legais e o contrato. Para aprendizes com deficiência, existem regras específicas."
+    ],
+    [
+      "Como acesso minha Carteira de Trabalho Digital?",
+      "Use o app CTPS Digital ou os serviços no gov.br. Você precisa do CPF e de acesso à sua conta gov.br."
+    ],
+    [
+      "Preciso de experiência para fazer currículo?",
+      "Não. Você pode destacar sua escolaridade, projetos, trabalhos voluntários, cursos, idiomas, ferramentas que sabe usar e habilidades relacionadas à vaga."
+    ],
+    [
+      "O Jovem Aprendiz tem direito a férias?",
+      "Sim. O contrato de aprendizagem garante direitos trabalhistas, incluindo férias, 13º salário e FGTS. As férias devem coincidir preferencialmente com as férias escolares."
+    ],
+    [
+      "O que é o número do PIS?",
+      "É um identificador usado em cadastros relacionados ao trabalho e benefícios. Caso você ainda não possua um cadastro, a empresa segue os procedimentos aplicáveis à contratação."
+    ],
+    [
+      "Posso trabalhar e estudar ao mesmo tempo?",
+      "Sim. A aprendizagem foi criada justamente para combinar formação teórica e prática profissional. Para quem ainda não concluiu a educação básica, a frequência escolar é requisito."
+    ],
+    [
+      "Quantas horas por dia um aprendiz pode trabalhar?",
+      "Em regra, a jornada não deve passar de 6 horas diárias. Pode chegar a 8 horas em situações previstas na legislação, com a aprendizagem teórica incluída. Confira as regras do programa e do contrato."
+    ],
+    [
+      "Preciso de conta bancária para receber salário?",
+      "A empresa informará a forma de pagamento. Algumas abrem ou orientam a abertura de conta-salário; não envie senhas ou dados bancários completos por links não verificados."
+    ],
+    [
+      "O que colocar no objetivo do currículo?",
+      "Seja específico: por exemplo, “Busco uma oportunidade como Jovem Aprendiz na área administrativa, para desenvolver habilidades de organização, atendimento e informática”."
+    ],
+    [
+      "Qual a diferença entre estágio e Jovem Aprendiz?",
+      "O estágio é uma atividade educativa supervisionada vinculada aos estudos e regida por lei própria. A aprendizagem envolve contrato de trabalho especial e formação técnico-profissional."
+    ],
+    [
+      "Como me proteger de vagas falsas?",
+      "Confirme a identidade da empresa, verifique o endereço dos sites e desconfie de cobranças de taxas para participar de seleção. Não forneça códigos recebidos por SMS ou senhas."
+    ]
+  ]
+}

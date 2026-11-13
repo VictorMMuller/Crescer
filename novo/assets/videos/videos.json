@@ -1,0 +1,58 @@
+[
+  {
+    "id": "Yu9oe8UJGak",
+    "titulo": "Como fazer um currículo mais atrativo",
+    "categoria": "Currículo",
+    "url": "https://www.youtube.com/watch?v=Yu9oe8UJGak",
+    "miniatura": "https://i.ytimg.com/vi/Yu9oe8UJGak/hqdefault.jpg",
+    "capa_alternativa": "assets/videos/capas/video-01.svg"
+  },
+  {
+    "id": "T1BgJRlbwfE",
+    "titulo": "Tutorial de preparação profissional 01",
+    "categoria": "Carreira",
+    "url": "https://www.youtube.com/watch?v=T1BgJRlbwfE",
+    "miniatura": "https://i.ytimg.com/vi/T1BgJRlbwfE/hqdefault.jpg",
+    "capa_alternativa": "assets/videos/capas/video-02.svg"
+  },
+  {
+    "id": "QQhXangMDNA",
+    "titulo": "Excel do zero para iniciantes",
+    "categoria": "Ferramentas",
+    "url": "https://www.youtube.com/watch?v=QQhXangMDNA",
+    "miniatura": "https://i.ytimg.com/vi/QQhXangMDNA/hqdefault.jpg",
+    "capa_alternativa": "assets/videos/capas/video-03.svg"
+  },
+  {
+    "id": "TDhkccIX9Ro",
+    "titulo": "Tutorial de preparação profissional 02",
+    "categoria": "Carreira",
+    "url": "https://www.youtube.com/watch?v=TDhkccIX9Ro",
+    "miniatura": "https://i.ytimg.com/vi/TDhkccIX9Ro/hqdefault.jpg",
+    "capa_alternativa": "assets/videos/capas/video-04.svg"
+  },
+  {
+    "id": "6YPTCKDu7iw",
+    "titulo": "Tutorial de preparação profissional 03",
+    "categoria": "Carreira",
+    "url": "https://www.youtube.com/watch?v=6YPTCKDu7iw",
+    "miniatura": "https://i.ytimg.com/vi/6YPTCKDu7iw/hqdefault.jpg",
+    "capa_alternativa": "assets/videos/capas/video-05.svg"
+  },
+  {
+    "id": "tdADwahigdU",
+    "titulo": "Tutorial de preparação profissional 04",
+    "categoria": "Carreira",
+    "url": "https://www.youtube.com/watch?v=tdADwahigdU",
+    "miniatura": "https://i.ytimg.com/vi/tdADwahigdU/hqdefault.jpg",
+    "capa_alternativa": "assets/videos/capas/video-06.svg"
+  },
+  {
+    "id": "CqJgu8_g4t4",
+    "titulo": "Tutorial de preparação profissional 05",
+    "categoria": "Carreira",
+    "url": "https://www.youtube.com/watch?v=CqJgu8_g4t4",
+    "miniatura": "https://i.ytimg.com/vi/CqJgu8_g4t4/hqdefault.jpg",
+    "capa_alternativa": "assets/videos/capas/video-07.svg"
+  }
+]
