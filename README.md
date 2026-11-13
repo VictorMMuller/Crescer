@@ -25,9 +25,10 @@ assets/js/site.js             Menu, filtros e busca
 assets/brand/                 Marcas SVG refinadas e ícones originais
 assets/curriculos/            Três modelos Word originais
 assets/data/catalogo.json    Catálogo editável (arquivo de referência)
+assets/videos/               Metadados dos vídeos e miniatura alternativa
 ```
 
-> O JSON é um catálogo editorial de referência. As páginas HTML são pré-renderizadas para abrir com dois cliques. Se alterar o JSON, atualize o HTML correspondente ou adapte o gerador de origem. O código-fonte do gerador `build.py` está incluído para facilitar manutenção local.
+> O JSON é um catálogo editorial de referência. As páginas HTML são pré-renderizadas para abrir com dois cliques. Se alterar o JSON, atualize o HTML correspondente ou adapte o gerador de origem. Para alterar textos e links de uma página sem instalar nada, edite diretamente seu arquivo `index.html`; o catálogo JSON serve como registro dos dados originais.
 
 ## Vídeos
 

@@ -15,6 +15,11 @@
       list.querySelectorAll('[data-category]').forEach(card=>{const key=card.dataset.category;card.hidden=category!=='Todos'&&key!==category&&!(category==='Estágio'&&key==='Estágio & Aprendiz')&&!(category==='Jovem Aprendiz'&&key==='Estágio & Aprendiz')&&!(category==='Primeiro Emprego'&&key==='Todos os perfis');});
     });
   });
+  document.querySelectorAll('img[data-fallback]').forEach(img=>{
+    const fallback=()=>{ if(img.dataset.failed==='true')return;img.dataset.failed='true';img.src=img.dataset.fallback;};
+    img.addEventListener('error',fallback,{once:true});
+    if(img.complete&&img.naturalWidth===0)fallback();
+  });
   const search=document.getElementById('faq-search');if(search){const items=[...document.querySelectorAll('.faq-item')],empty=document.querySelector('.search-empty');
     const normalize=t=>t.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('pt-BR');
     search.addEventListener('input',()=>{const q=normalize(search.value.trim());let shown=0;items.forEach(item=>{const ok=normalize(item.textContent).includes(q);item.hidden=!ok;if(ok)shown++});if(empty)empty.hidden=shown>0;});
