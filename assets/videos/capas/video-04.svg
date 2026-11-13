@@ -1,16 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title">
-<title id="title">Capa ilustrativa do Crescer+PR para Tutorial de preparação profissional 02</title>
-<rect width="1280" height="720" fill="#204A41"/>
-<rect x="24" y="24" width="1232" height="672" fill="none" stroke="#ffffff" stroke-opacity=".2" stroke-width="2"/>
-<path d="M0 0H16V720H0Z" fill="#F3DC79"/>
-<text x="78" y="102" fill="#F3DC79" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="4">CRESCER+PR / VÍDEOS</text>
-<rect x="76" y="144" width="172" height="48" fill="#F3DC79"/>
-<text x="96" y="175" fill="#204A41" font-family="Arial, sans-serif" font-size="23" font-weight="700">CARREIRA</text>
-<text x="76" y="293" fill="#ffffff" font-family="Arial, sans-serif" font-size="70" font-weight="700" letter-spacing="-2.4">Primeiros passos na</text>
-<text x="76" y="379" fill="#ffffff" font-family="Arial, sans-serif" font-size="70" font-weight="700" letter-spacing="-2.4">carreira</text>
-<path d="M78 596H1200" fill="none" stroke="#ffffff" stroke-opacity=".3" stroke-width="2"/>
-<circle cx="113" cy="643" r="28" fill="#F3DC79"/>
-<path d="M105 628L125 643L105 658Z" fill="#204A41"/>
-<text x="161" y="653" fill="#ffffff" font-family="Arial, sans-serif" font-weight="700" font-size="22">ASSISTIR NO YOUTUBE</text>
-<text x="1156" y="653" text-anchor="end" fill="#F3DC79" font-family="Arial, sans-serif" font-size="26" font-weight="700">04 / 07</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Capa alternativa do vídeo 04 sobre carreira"><rect width="960" height="540" fill="#14241b"/><rect x="27" y="27" width="906" height="486" fill="#ffb196"/><path d="M65 115h825" stroke="#14241b" stroke-width="2"/><text x="65" y="87" fill="#14241b" font-family="Arial,sans-serif" font-size="24" font-weight="900" letter-spacing="4">CRESCER+PR  /  JOVEM</text><text x="877" y="87" text-anchor="end" fill="#14241b" font-family="Arial,sans-serif" font-size="25" font-weight="900">04 / 07</text><text x="67" y="217" fill="#14241b" font-family="Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="3">CARREIRA</text><text x="55" y="359" fill="#14241b" font-family="Arial,sans-serif" font-size="120" font-weight="900" letter-spacing="-8">ATITUDE</text><path d="M65 455h825" stroke="#14241b" stroke-width="2"/><text x="65" y="485" fill="#14241b" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="3">VÍDEO SELECIONADO  •  ASSISTA NO YOUTUBE</text><circle cx="827" cy="420" r="62" fill="#14241b"/><path d="M812 389 860 420 812 451Z" fill="#ffb196"/></svg>

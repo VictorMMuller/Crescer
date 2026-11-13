@@ -1,64 +1,52 @@
-# Crescer+PR Jovem
+# Crescer+PR Jovem — experimento “Seu começo, do seu jeito”
 
-Portal estático independente, com páginas HTML próprias, CSS e JavaScript sem build, React, Base44, npm ou backend.
+Este diretório é uma **proposta experimental**, desenvolvida como alternativa visual à versão principal do Crescer+PR Jovem. Ela **não substitui** a versão original aprovada.
 
-## Começar
+## Como abrir
 
-1. Extraia o ZIP e abra `index.html` no Chrome, Edge ou Firefox. Os links internos apontam para arquivos `index.html` e funcionam sem servidor, inclusive em `file://`.
-2. Navegue pelas páginas pelo menu. Os arquivos em `assets/` devem permanecer na mesma estrutura.
-3. Para publicar no GitHub Pages, abra **Settings → Pages** e escolha **Deploy from a branch → main → /(root)**. Não é preciso instalar dependências. Se o repositório for privado, confira se a sua conta permite Pages para projetos privados; GitHub Pages publica o site na web conforme as configurações do repositório e plano.
+Abra `index.html` em um navegador. O site é estático, sem instalação, backend ou build obrigatório. Os links entre as nove páginas funcionam pelo sistema de caminhos relativos. Para publicar, use uma hospedagem estática apontando para a raiz do projeto.
 
-## Pastas
+## Diferenças intencionais
 
+- Nova identidade editorial de contraste alto: verde quase-preto, verde-lima, violeta, coral e azul em posições específicas.
+- Página inicial com orientação por situação (nunca trabalhou, procura vaga, quer aprender). A seleção funciona só no navegador e **não coleta ou salva dados**.
+- Textos mais naturais e conversacionais, sem simular um chatbot nem fazer promessas de empregabilidade.
+- Todas as nove páginas continuam independentes.
+- Conjuntos já existentes preservados: instituições de vagas e cursos, links, currículos .docx, tutoriais e equipe Protagonistas do Futuro.
+- Miniaturas do YouTube continuam no site; capas locais em SVG aparecem como alternativa se uma miniatura não carregar.
+- `noindex,nofollow` no experimento para evitar indexação acidental de versões concorrentes.
+
+## Árvore principal
+
+```text
+index.html                         Início + orientador de três caminhos
+curriculos/index.html              Três modelos Word
+vagas/index.html                   Plataformas (8 cartões)
+cursos/index.html                  Plataformas (6 cartões)
+tutoriais/index.html               Sete vídeos com capas
+faq/index.html                     Busca e perguntas
+documentacao/index.html            Orientações documentais
+quem-somos/index.html              Sobre + nove integrantes da equipe
+privacidade/index.html             Informações sobre privacidade
+assets/css/site.css                Sistema anterior de suporte
+assets/css/experimental.css        Nova direção visual
+assets/js/site.js                  Filtros, FAQ, imagens
+assets/js/experimental.js          Menu e orientador interativo
+assets/videos/capas/               Sete capas SVG de fallback
+assets/parceiros/                  Identificação visual das plataformas
+assets/curriculos/                 Modelos Word
 ```
-index.html                    Página inicial
-curriculos/index.html         Currículos
-cursos/index.html             Cursos
-vagas/index.html              Plataformas de vagas
-tutoriais/index.html          Vídeos com capas do YouTube
-documentacao/index.html       Orientações documentais
-faq/index.html                Perguntas frequentes
-quem-somos/index.html         Sobre o projeto
-privacidade/index.html        Informações de privacidade
-assets/css/site.css           Identidade visual / responsividade
-assets/js/site.js             Menu, filtros e busca
-assets/brand/                 Marcas SVG refinadas e ícones originais
-assets/curriculos/            Três modelos Word originais
-assets/parceiros/             Ícones de identificação de instituições (SVG)
-assets/data/catalogo.json    Catálogo editável (arquivo de referência)
-assets/videos/               Metadados dos vídeos e miniatura alternativa
-```
 
-> O JSON é um catálogo editorial de referência. As páginas HTML são pré-renderizadas para abrir com dois cliques. Se alterar o JSON, atualize o HTML correspondente ou adapte o gerador de origem. Para alterar textos e links de uma página sem instalar nada, edite diretamente seu arquivo `index.html`; o catálogo JSON serve como registro dos dados originais.
+## Branches do GitHub
 
-## Vídeos
+- Versão anterior intacta: `backup/design-anterior-2026-11-13`
+- Experimento isolado: `experimento/design-jovem`
+- Produção atual: `main` (**não editada** por este experimento)
 
-Os sete vídeos são listados com seus IDs originais em `assets/data/catalogo.json`. As capas são exibidas diretamente de `https://i.ytimg.com/vi/ID/hqdefault.jpg`, sem re-hospedar vídeos ou miniaturas de terceiros no GitHub. Necessitam de internet. Para corrigir um título ou substituir um vídeo, atualize o catálogo e o HTML em `tutoriais/index.html`.
+## Testes
 
-## Limites e manutenção
+Validação de 9 páginas em 4 larguras (1440, 768, 390, 320px): um `h1` por página, sem erros detectados de JavaScript, sem overflow horizontal e sem imagens carregadas quebradas. Menu móvel e escolha do orientador foram exercitados no navegador de testes. Os vídeos externos e a disponibilidade de plataformas dependem de terceiros e precisam de checagem periódica.
 
-- Não há cadastro, sistema de autenticação, banco de vagas ou coleta própria de dados pessoais.
-- Os links de vagas são serviços de terceiros, **não vagas verificadas em tempo real**.
-- A gratuidade dos cursos varia por instituição e turma.
-- O texto de privacidade descreve o site estático atual. Revise quando adicionar analytics, cookies, formulários ou hospedagem diferente.
-- Para produção, configure domínio, sitemap/canonical e teste acesso real a todos os links externos.
-- Não publique dados pessoais de candidatos, segredos, tokens ou credenciais no GitHub.
+## Observações de conteúdo
 
-## Créditos
-
-Recriação editorial do projeto Crescer+PR Jovem com os arquivos fornecidos pelo autor. Materiais de currículo preservados; marcas de terceiros e capas de vídeos permanecem propriedade de seus autores. A iconografia hexagonal original está na pasta `assets/brand/originais`.
-
-## Verificações e manutenção
-
-- Teste de integridade local: todos os links internos, HTMLs e currículos; teste visual responsivo em sete larguras.
-- O arquivo `assets/data/catalogo.json` é referência editorial, **não alimenta automaticamente as páginas HTML**. Para trocar cursos, vídeos ou vagas, altere o HTML da seção e atualize o JSON se desejar mantê-los sincronizados.
-- Os títulos de cinco vídeos de carreira ainda não foram validados com o nome exibido no YouTube; antes da divulgação ampla, confira manualmente o conteúdo e os créditos dos vídeos.
-- Miniaturas reais do YouTube podem estar indisponíveis por bloqueio de rede; a capa alternativa é um gráfico original do Crescer+PR, não uma reprodução da miniatura.
-- Foram priorizados links do SENAI do Paraná, em vez do departamento de São Paulo.
-- Não é possível testar a disponibilidade das plataformas de vagas em tempo real somente pela estrutura HTML.
-
-Acesse `AUDITORIA_FINAL.md` para o relatório de verificação e as pendências antes da publicação.
-
-## Ícones das plataformas
-
-Todas as 8 plataformas de vagas e as 6 de cursos contam com um SVG local em `assets/parceiros/`. Exceto pelo símbolo LinkedIn do Font Awesome Free, são ilustrações editoriais de identificação, **não logotipos oficiais licenciados**. Veja `assets/parceiros/README.md`.
+Crescer+PR Jovem é um projeto independente. As plataformas externas não são vagas específicas garantidas. Algumas descrições de vídeos foram mantidas com identificação genérica até uma conferência individual do conteúdo. Nenhum arquivo de vídeo de terceiros foi copiado para o repositório.
