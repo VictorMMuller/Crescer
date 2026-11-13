@@ -24,6 +24,7 @@ assets/css/site.css           Identidade visual / responsividade
 assets/js/site.js             Menu, filtros e busca
 assets/brand/                 Marcas SVG refinadas e ícones originais
 assets/curriculos/            Três modelos Word originais
+assets/parceiros/             Ícones de identificação de instituições (SVG)
 assets/data/catalogo.json    Catálogo editável (arquivo de referência)
 assets/videos/               Metadados dos vídeos e miniatura alternativa
 ```
@@ -57,3 +58,7 @@ Recriação editorial do projeto Crescer+PR Jovem com os arquivos fornecidos pel
 - Não é possível testar a disponibilidade das plataformas de vagas em tempo real somente pela estrutura HTML.
 
 Acesse `AUDITORIA_FINAL.md` para o relatório de verificação e as pendências antes da publicação.
+
+## Ícones das plataformas
+
+Todas as 8 plataformas de vagas e as 6 de cursos contam com um SVG local em `assets/parceiros/`. Exceto pelo símbolo LinkedIn do Font Awesome Free, são ilustrações editoriais de identificação, **não logotipos oficiais licenciados**. Veja `assets/parceiros/README.md`.

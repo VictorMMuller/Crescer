@@ -53,7 +53,9 @@
       "featured": true,
       "tag": "Governo do Paraná",
       "accent": "green",
-      "initial": "PR"
+      "initial": "PR",
+      "icon": "assets/parceiros/central-estagio-pr.svg",
+      "icon_type": "identificacao-ilustrativa"
     },
     {
       "title": "Cidade Júnior",
@@ -63,7 +65,9 @@
       "featured": true,
       "tag": "Aprendizagem",
       "accent": "teal",
-      "initial": "CJ"
+      "initial": "CJ",
+      "icon": "assets/parceiros/cidade-junior.svg",
+      "icon_type": "identificacao-ilustrativa"
     },
     {
       "title": "EVO Estágios",
@@ -73,7 +77,9 @@
       "featured": true,
       "tag": "Seleção de estagiários",
       "accent": "yellow",
-      "initial": "EV"
+      "initial": "EV",
+      "icon": "assets/parceiros/evo-estagios.svg",
+      "icon_type": "identificacao-ilustrativa"
     },
     {
       "title": "CIEE",
@@ -82,7 +88,9 @@
       "url": "https://portal.ciee.org.br/",
       "tag": "Estágio e aprendiz",
       "accent": "blue",
-      "initial": "CIEE"
+      "initial": "CIEE",
+      "icon": "assets/parceiros/ciee.svg",
+      "icon_type": "identificacao-ilustrativa"
     },
     {
       "title": "Emprega Brasil",
@@ -91,7 +99,9 @@
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/sistema-nacional-de-emprego-sine/portal-emprega-brasil",
       "tag": "Governo Federal",
       "accent": "green",
-      "initial": "BR"
+      "initial": "BR",
+      "icon": "assets/parceiros/emprega-brasil.svg",
+      "icon_type": "identificacao-ilustrativa"
     },
     {
       "title": "LinkedIn",
@@ -100,7 +110,9 @@
       "url": "https://www.linkedin.com/jobs/",
       "tag": "Rede profissional",
       "accent": "blue",
-      "initial": "in"
+      "initial": "in",
+      "icon": "assets/parceiros/linkedin.svg",
+      "icon_type": "oficial"
     },
     {
       "title": "Infojobs",
@@ -109,7 +121,9 @@
       "url": "https://www.infojobs.com.br/",
       "tag": "Portal de vagas",
       "accent": "teal",
-      "initial": "ij"
+      "initial": "ij",
+      "icon": "assets/parceiros/infojobs.svg",
+      "icon_type": "identificacao-ilustrativa"
     },
     {
       "title": "Catho",
@@ -118,7 +132,9 @@
       "url": "https://www.catho.com.br/",
       "tag": "Portal de vagas",
       "accent": "yellow",
-      "initial": "CA"
+      "initial": "CA",
+      "icon": "assets/parceiros/catho.svg",
+      "icon_type": "identificacao-ilustrativa"
     }
   ],
   "courses": [
@@ -130,7 +146,9 @@
       "url": "https://www.senaipr.org.br/transparencia/gratuidade/oportunidades/",
       "flag": "Ofertas gratuitas por turma",
       "tone": "teal",
-      "initial": "S"
+      "initial": "S",
+      "icon": "assets/parceiros/senai.svg",
+      "icon_type": "identificacao-ilustrativa"
     },
     {
       "name": "Escola Virtual Gov",
@@ -140,7 +158,9 @@
       "url": "https://www.escolavirtual.gov.br/",
       "flag": "Cursos gratuitos",
       "tone": "green",
-      "initial": "EV"
+      "initial": "EV",
+      "icon": "assets/parceiros/escola-virtual-gov.svg",
+      "icon_type": "identificacao-ilustrativa"
     },
     {
       "name": "SEBRAE",
@@ -150,7 +170,9 @@
       "url": "https://loja.sebrae.com.br/cursos/cursos-online",
       "flag": "Seleção de cursos gratuitos",
       "tone": "yellow",
-      "initial": "SB"
+      "initial": "SB",
+      "icon": "assets/parceiros/sebrae.svg",
+      "icon_type": "identificacao-ilustrativa"
     },
     {
       "name": "SENAC",
@@ -160,7 +182,9 @@
       "url": "https://www.senac.br/",
       "flag": "Gratuidade conforme programa",
       "tone": "teal",
-      "initial": "SN"
+      "initial": "SN",
+      "icon": "assets/parceiros/senac.svg",
+      "icon_type": "identificacao-ilustrativa"
     },
     {
       "name": "Coursera",
@@ -170,7 +194,9 @@
       "url": "https://www.coursera.org/courses?query=free",
       "flag": "Pode exigir bolsa ou pagamento",
       "tone": "blue",
-      "initial": "Co"
+      "initial": "Co",
+      "icon": "assets/parceiros/coursera.svg",
+      "icon_type": "identificacao-ilustrativa"
     },
     {
       "name": "Fundação Bradesco",
@@ -180,7 +206,9 @@
       "url": "https://www.ev.org.br/",
       "flag": "Cursos gratuitos",
       "tone": "yellow",
-      "initial": "FB"
+      "initial": "FB",
+      "icon": "assets/parceiros/fundacao-bradesco.svg",
+      "icon_type": "identificacao-ilustrativa"
     }
   ],
   "docs": [
