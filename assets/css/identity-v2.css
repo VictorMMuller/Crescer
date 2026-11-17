@@ -93,3 +93,8 @@ body.lab-site .button{border-radius:10px}
 @media(max-width:440px){.lab-brand{min-width:0}.lab-brand img{width:158px}.lab-nav{height:67px}.lab-topbar .lab-wrap>span:first-child{max-width:230px}.hero-main h1{font-size:clamp(44px,11vw,58px)}.hero-quickstart{padding:23px 21px 19px;box-shadow:7px 7px 0 rgba(29,135,120,.2)}.hero-quickstart-header{margin-bottom:18px}.hero-quickstart-links a{padding:15px 1px}.quickstart-text strong{font-size:15px}.quickstart-text small{font-size:12px}.lab-section-intro h2{font-size:37px}.toolbox-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.tool-card{min-height:226px;padding:16px}.tool-card strong{font-size:24px}.tool-card>span:last-child{font-size:12px}.tool-symbol{width:49px;height:49px;font-size:30px}.journey-option small{font-size:12px}.lab-marquee strong{font-size:46px}}
 @media(max-width:360px){.toolbox-grid{grid-template-columns:1fr}.tool-card{min-height:190px}.lab-brand img{width:142px}}
 @media(prefers-reduced-motion:reduce){.lab-btn,.tool-card{transition:none!important}}
+
+/* Consistent understated editorial symbols; avoid colorful emoji glyphs. */
+.tool-symbol svg{display:block;width:34px;height:34px;stroke:#23624f;flex-shrink:0}
+@media(max-width:440px){.tool-symbol svg{width:30px;height:30px}}
+.eyebrow-flash,.hero-mini-star,.marquee-shape,.hero-quickstart-note span{font-family:Arial,Helvetica,sans-serif;font-style:normal}
